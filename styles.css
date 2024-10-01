@@ -1,0 +1,135 @@
+body {
+    background-color: #1A1A1A;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #2e3392;
+    border-radius: 30px;;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+main.contact {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #1A1A1A;
+    min-height: calc(100vh - 60px - 80px);
+    color: white;
+}
+
+.contact-form {
+    background-color: #252525;
+    color: white;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: left;
+    width: 500px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #C1C1C1;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #555CFC;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 16px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #4048cc;
+}
+
+.btn {
+    background-color: #555CFC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #4048cc;
+}
+
+.contato h2 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.contato p {
+    font-size: 16px;
+}
+
+.contato hr {
+    max-width: 1000px;
+    margin: 0 auto; 
+    border: none;
+    border-top: 2px solid #555CFC; 
+    text-align: center;
+}
+
+.contato img {
+    height: 1 auto;
+    width: 1 auto;
+    border-radius: 30px;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    background-color: #1A1A1A;
+    text-align: center;
+    width: 100%;
+}
